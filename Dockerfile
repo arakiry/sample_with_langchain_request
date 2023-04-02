@@ -17,6 +17,7 @@ RUN pip install --upgrade setuptools
 RUN python -m \
     pip install notebook \
     pip install langchain \
+    pip install llama-index \
     pip install openai \
     pip install google-search-results \
     pip install tiktoken \
