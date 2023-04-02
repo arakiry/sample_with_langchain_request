@@ -9,9 +9,13 @@
 Notionからデータを取ってくるには、Notion Integration を作る必要があります。
 以下のURLからIntegrationを作成してください。
 （ Integration type は Internal を想定しています。）
+
 https://www.notion.so/my-integrations
 
 Integrationが作成できたら、Internal Integration Token を .env の NOTION_INTEGRATION_TOKEN に設定してください。
+
+その後 Notion 上で、AI に検索させたいページやデータベースを Integration と connect してください。
+connect した部分のみを、ドキュメントとして扱います。
 
 ### Run
 ```sh
